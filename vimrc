@@ -3,6 +3,7 @@
 call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-vinegar'
   Plug 'junegunn/seoul256.vim'
+  Plug 'mattn/emmet-vim'
 call plug#end()
 
 " Unified color scheme (default: dark)
