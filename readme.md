@@ -1,5 +1,42 @@
 Learning vim with the help of friends.
 
+## Things I need
+
+- [ ] markdown format
+- [ ] find all and replace
+- [ ] close parens
+- [ ] go to specific file
+- [ ] search for files
+- [ ] copy contents of a file
+- [ ] move a file/directory
+
+
+## Vim School
+
+### Videos
+
+[derek wyatt](http://derekwyatt.org/)
+
+[vim casts](http://vimcasts.org/)
+
+### books
+
+[practical vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition)
+
+[vi and vim](http://shop.oreilly.com/product/9780596529833.do)
+
+### blogs
+
+[learn to speak vim](https://yanpritzker.com/learn-to-speak-vim-verbs-nouns-and-modifiers-d7bfed1f6b2d#.3vhm5i73e)
+
+[the grammar of vim](http://rc3.org/2012/05/12/the-grammar-of-vim/)
+
+[coming home to vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
+
+[stack overflow post](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118)
+
+
+
 ## Back on the wagon 
 
 It's time to start using vim again! But this time I feel I have a sporting chance at keeping the momentum. The last time I fell off the wagon was because I couldn't figure out plugins to do the things I needed to do. Once you leave vim it's hard to return. I always found that statement odd when other people said something similar. If vim is so difficult then why the love? First off, difficult doesn't mean bad. Second, vim is a highly customized text editor for programmers. I cannot see any reason to use this if writing code wasn't your primary occupation. But since it is, there are many reasons for me to take the time to learn. 
