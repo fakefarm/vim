@@ -37,3 +37,14 @@ nnoremap <Leader>fgl :Commits!<CR>
 nnoremap <Leader>fc :Commands!<CR>
 nnoremap <Leader>fm :Maps!<CR>
 nnoremap <Leader>fh :Helptags!<CR>
+
+" toggle between relative and absolute numbers with <C-n>
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
