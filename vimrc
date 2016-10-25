@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
+  Plug 'tpope/vim-unimpaired'
 call plug#end()
 
 " Unified color scheme (default: dark)
@@ -23,6 +24,12 @@ colo seoul256
 
 let mapleader="\<Space>"
 set relativenumber 
+
+" Softtabs, 2 spaces
+set smartindent
+set tabstop=2
+set expandtab
+set shiftwidth=2
 
 "==================================================================================================
 " FZF
