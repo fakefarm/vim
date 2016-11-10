@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
   Plug 'tpope/vim-unimpaired'
+  Plug 'wincent/ferret'
 call plug#end()
 
 " Unified color scheme (default: dark)
