@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'tpope/vim-unimpaired'
   Plug 'wincent/ferret'
+  Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Unified color scheme (default: dark)
