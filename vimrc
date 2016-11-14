@@ -57,3 +57,17 @@ function! NumberToggle()
 endfunc
 
 nnoremap <Leader><C-n> :call NumberToggle()<cr>
+
+"==================================================================================================
+"" EMMET
+"==================================================================================================
+
+
+let g:user_emmet_leader_key=','
+let g:user_emmet_settings = {
+\  'html' : {
+\    'quote_char': "'",
+\  },
+\}
+
+
