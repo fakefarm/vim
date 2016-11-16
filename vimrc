@@ -26,6 +26,7 @@ colo seoul256
 
 let mapleader="\<Space>"
 set relativenumber 
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
 " Softtabs, 2 spaces
 set smartindent
