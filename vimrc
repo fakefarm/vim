@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-unimpaired'
   Plug 'wincent/ferret'
   Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-commentary'
 call plug#end()
 
 " Unified color scheme (default: dark)
