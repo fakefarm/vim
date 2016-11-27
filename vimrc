@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'wincent/ferret'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-commentary'
+  Plug '907th/vim-auto-save'
 call plug#end()
 
 " Unified color scheme (default: dark)
@@ -38,6 +39,10 @@ set hlsearch
 set laststatus=2                        " Always show status bar
 set number                              " Turn on line numbering
 
+
+let g:auto_save = 1 " enable AutoSave on Vim startup
+let updatetime=200
+let g:auto_save_events = [ "CursorHold", "CursorHoldI", "CompleteDone", "InsertLeave", "TextChanged" ]
 
 "==================================================================================================
 " FZF
