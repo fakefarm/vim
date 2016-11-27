@@ -35,7 +35,9 @@ set tabstop=2
 set expandtab
 set shiftwidth=2
 set hlsearch
-set laststatus=2                                            " Always show status bar
+set laststatus=2                        " Always show status bar
+set number                              " Turn on line numbering
+
 
 "==================================================================================================
 " FZF
